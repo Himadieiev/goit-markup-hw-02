@@ -1,0 +1,49 @@
+/* Основной шрифт и цвет текста */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
+/* Оформление шапки сайта */
+.header {
+  background: #FFFFFF;
+}
+
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-web {
+  color: #2196F3;
+}
+
+.link-nav:hover,
+.link-nav:focus {
+  color: #2196F3;
+}
+
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.link-contacts:hover,
+.link-contacts:focus {
+  color: #2196F3;
+}
