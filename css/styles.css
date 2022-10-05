@@ -9,14 +9,6 @@ body {
   background: #FFFFFF;
 }
 
-.navigation {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-
 .logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -24,10 +16,20 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #000000;
+  text-decoration: none;
 }
 
 .logo-web {
   color: #2196F3;
+}
+
+.link-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
 }
 
 .link-nav:hover,
@@ -35,12 +37,13 @@ body {
   color: #2196F3;
 }
 
-.contacts {
+.link-contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 
 .link-contacts:hover,
