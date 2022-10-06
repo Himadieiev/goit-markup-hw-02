@@ -1,7 +1,23 @@
-/* Основной шрифт и цвет текста */
+/* Основной шрифт и цвет текста, общие секционные стили */
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.list-item {
+  text-align: center;
 }
 
 /* Оформление шапки сайта */
@@ -13,7 +29,7 @@ body {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
@@ -26,7 +42,7 @@ body {
 .link-nav {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
@@ -40,7 +56,7 @@ body {
 .link-contacts {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
@@ -51,12 +67,8 @@ body {
   color: #2196F3;
 }
 
-/* Оформление секции "Заказ услуг - главный заголовок" */
-.main-section-one {
-  /* width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px; */
+/*Заказ услуг - главный заголовок*/
+.section-one {
   background: #2F303A;
 }
 
@@ -70,65 +82,44 @@ body {
   color: #FFFFFF;
 }
 
-.main-button {
+.button {
   width: 216px;
   height: 50px;
-  /* left: 692px;
-  top: 430px; */
   background: #2196F3;
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px; */
 }
 
-.main-button-text {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    /* display: flex;
-    align-items: center; */
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
+.button-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
 }
 
 /*Особенности студии*/
-.main-section-two {
+.section-two {
   background: #F5F5F5;
 }
 
-.subtitle-section-two {
+.subtitle-two {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  /* color: #212121; */
 }
 
-.text-section-two {
+.text-two {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
 /*Чем мы занимаемся*/
-.main-section-three {
+.section-three {
   background: #F5F5F5;
-}
-
-.title-section-three {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
-.list-item-three {
-  text-align: center;
 }
 
 /* Наша команда */
@@ -136,34 +127,19 @@ body {
   background: #F5F4FA;
 }
 
-.title-section-four {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
-.list-item-four {
-  text-align: center;
-}
-
-.subtitle-section-four {
+.subtitle-four {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  /* text-align: center; */
-  letter-spacing: 0.03em;
-  color: #212121;
+  text-align: center;
+  /* color: #212121; */
 }
 
-.text-section-four {
+.text-four {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-  /* text-align: center; */
-  letter-spacing: 0.03em;
+  text-align: center;
   color: #757575;
 }
 
@@ -176,7 +152,7 @@ body {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px; 
+  line-height: 1.19; 
   letter-spacing: 0.03em;
   color: #FFFFFF;
   text-decoration: none;
@@ -186,7 +162,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #FFFFFF;
   text-decoration: none;
@@ -196,7 +172,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -206,24 +182,19 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
 .address:hover,
-.address:focus {
-  color: #2196F3;
-}
-
+.address:focus,
 .mail:hover,
-.mail:focus {
-  color: #2196F3;
-}
-
+.mail:focus,
 .tel:hover,
 .tel:focus {
   color: #2196F3;
 }
+
 
