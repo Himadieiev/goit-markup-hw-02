@@ -1,7 +1,12 @@
 /* Основной шрифт и цвет текста, общие секционные стили */
+:root {
+  --main-text-color: #212121;
+  --hoverfocus-text-color: #2196F3;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+  color: var(--main-text-color);
   letter-spacing: 0.03em;
 }
 
@@ -50,7 +55,7 @@ body {
 
 .link-nav:hover,
 .link-nav:focus {
-  color: #2196F3;
+  color: var(--hoverfocus-text-color);
 }
 
 .link-contacts {
@@ -64,7 +69,7 @@ body {
 
 .link-contacts:hover,
 .link-contacts:focus {
-  color: #2196F3;
+  color: var(--hoverfocus-text-color);
 }
 
 /*Заказ услуг - главный заголовок*/
@@ -86,6 +91,11 @@ body {
   width: 216px;
   height: 50px;
   background: #2196F3;
+}
+
+.button:hover,
+.button:focus {
+  background: #188CE8;
 }
 
 .button-text {
@@ -194,7 +204,7 @@ body {
 .mail:focus,
 .tel:hover,
 .tel:focus {
-  color: #2196F3;
+  color: var(--hoverfocus-text-color);
 }
 
 
