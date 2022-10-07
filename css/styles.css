@@ -1,13 +1,16 @@
 /* Основной шрифт и цвет текста, общие секционные стили */
 :root {
   --main-text-color: #212121;
+  --main-background-color: #F5F5F5;
   --hoverfocus-text-color: #2196F3;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--main-text-color);
   letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+  background: var(--main-background-color);
 }
 
 .list {
@@ -113,10 +116,6 @@ body {
 }
 
 /*Особенности студии*/
-.section-two {
-  background: #F5F5F5;
-}
-
 .subtitle-two {
   font-weight: 700;
   font-size: 14px;
@@ -129,10 +128,7 @@ body {
   line-height: 1.71;
 }
 
-/*Чем мы занимаемся*/
-.section-three {
-  background: #F5F5F5;
-}
+/*Чем мы занимаемся - пока здесь ничего нет*/
 
 /* Наша команда */
 .section-four {
@@ -207,10 +203,6 @@ body {
 }
 
 /* Страница 2 - Портфолио */
-.section-portfolio {
-  background: #F5F5F5;
-}
-
 .text-button {
   font-weight: 500;
   font-size: 16px;
