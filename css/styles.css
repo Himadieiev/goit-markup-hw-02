@@ -25,7 +25,12 @@ body {
   text-align: center;
 }
 
-/* Оформление шапки сайта */
+.text {
+  font-weight: 400;
+  color: #757575;
+}
+
+/* Оформление шапки сайта - общая для всех! */
 .header {
   background: #FFFFFF;
 }
@@ -87,14 +92,14 @@ body {
   color: #FFFFFF;
 }
 
-.button {
+.main-button {
   width: 216px;
   height: 50px;
   background: #2196F3;
 }
 
-.button:hover,
-.button:focus {
+.main-button:hover,
+.main-button:focus {
   background: #188CE8;
 }
 
@@ -117,14 +122,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  /* color: #212121; */
 }
 
 .text-two {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
 }
 
 /*Чем мы занимаемся*/
@@ -133,7 +135,7 @@ body {
 }
 
 /* Наша команда */
-.main-section-four {
+.section-four {
   background: #F5F4FA;
 }
 
@@ -142,18 +144,15 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  /* color: #212121; */
 }
 
 .text-four {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: #757575;
 }
 
-/* Футер */
+/* Футер - общий для всех! */
 .footer {
   background: #2F303A;
 }
@@ -207,4 +206,58 @@ body {
   color: var(--hoverfocus-text-color);
 }
 
+/* Страница 2 - Портфолио */
+.section-portfolio {
+  background: #F5F5F5;
+}
 
+.text-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.button {
+  height: 38px;
+  background: #F5F4FA;
+}
+
+.all {
+  width: 73px;
+}
+
+.web {
+  width: 125px;
+}
+
+.app {
+  width: 112px;
+}
+
+.des {
+  width: 103px;
+}
+
+.mar {
+  width: 130px;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--hoverfocus-text-color);
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.text.portfolio {
+  font-size: 16px;
+  line-height: 1.88;
+}
