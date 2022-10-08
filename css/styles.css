@@ -2,9 +2,9 @@
 :root {
   --main-text-color: #212121;
   --header-background-color: #FFFFFF;
-  --first-background-color: #F5F5F5;
-  --second-background-color: #2F303A;
-  --third-background-color: #F5F4FA;
+  --first-background-color: #2F303A;
+  --second-background-color: #F5F4FA;
+  /* --third-background-color: #F5F5F5; */
   --hoverfocus-text-color: #2196F3;
   --text-color: #FFFFFF;
 }
@@ -85,7 +85,7 @@ body {
 
 /*Заказ услуг - главный заголовок*/
 .section-one {
-  background: var(--second-background-color);
+  background: var(--first-background-color);
 }
 
 .main-title {
@@ -116,10 +116,6 @@ body {
 }
 
 /*Особенности студии*/
-.section-two {
-  background: var(--first-background-color);
-}
-
 .subtitle-two {
   font-weight: 700;
   font-size: 14px;
@@ -132,14 +128,11 @@ body {
   line-height: 1.71;
 }
 
-/*Чем мы занимаемся*/
-.section-three {
-  background: var(--first-background-color);
-}
+/*Чем мы занимаемся - пока здесь ничего нет!*/
 
 /* Наша команда */
 .section-four {
-  background: var(--third-background-color);
+  background: var(--second-background-color);
 }
 
 .subtitle-four {
@@ -157,7 +150,7 @@ body {
 
 /* Футер - общий для всех! */
 .footer {
-  background: var(--second-background-color);
+  background: var(--first-background-color);
 }
 
 .logo-footer {
@@ -210,10 +203,6 @@ body {
 }
 
 /* Страница 2 - Портфолио */
-.section-portfolio {
-  background: var(--first-background-color);
-}
-
 .button {
   background: #F5F4FA;
   color: #212121;
