@@ -1,8 +1,12 @@
 /* Основной шрифт и цвет текста, общие секционные стили */
 :root {
   --main-text-color: #212121;
-  --main-background-color: #F5F5F5;
+  --header-background-color: #FFFFFF;
+  --first-background-color: #F5F5F5;
+  --second-background-color: #2F303A;
+  --third-background-color: #F5F4FA;
   --hoverfocus-text-color: #2196F3;
+  --text-color: #FFFFFF;
 }
 
 body {
@@ -10,7 +14,6 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--main-text-color);
-  background: var(--main-background-color);
 }
 
 .list {
@@ -35,7 +38,7 @@ body {
 
 /* Оформление шапки сайта - общая для всех! */
 .header {
-  background: #FFFFFF;
+  background: var(--header-background-color);
 }
 
 .logo {
@@ -57,7 +60,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-text-color);
   text-decoration: none;
 }
 
@@ -82,7 +85,7 @@ body {
 
 /*Заказ услуг - главный заголовок*/
 .section-one {
-  background: #2F303A;
+  background: var(--second-background-color);
 }
 
 .main-title {
@@ -92,13 +95,18 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--text-color);
 }
 
 .main-button {
-  width: 216px;
-  height: 50px;
   background: #2196F3;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: inherit;
   cursor: pointer;
 }
 
@@ -107,16 +115,11 @@ body {
   background: #188CE8;
 }
 
-.button-text {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #FFFFFF;
+/*Особенности студии*/
+.section-two {
+  background: var(--first-background-color);
 }
 
-/*Особенности студии*/
 .subtitle-two {
   font-weight: 700;
   font-size: 14px;
@@ -129,11 +132,14 @@ body {
   line-height: 1.71;
 }
 
-/*Чем мы занимаемся - пока здесь ничего нет*/
+/*Чем мы занимаемся*/
+.section-three {
+  background: var(--first-background-color);
+}
 
 /* Наша команда */
 .section-four {
-  background: #F5F4FA;
+  background: var(--third-background-color);
 }
 
 .subtitle-four {
@@ -151,7 +157,7 @@ body {
 
 /* Футер - общий для всех! */
 .footer {
-  background: #2F303A;
+  background: var(--second-background-color);
 }
 
 .logo-footer {
@@ -204,44 +210,31 @@ body {
 }
 
 /* Страница 2 - Портфолио */
-.text-button {
+.section-portfolio {
+  background: var(--first-background-color);
+}
+
+.button {
+  background: #F5F4FA;
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-}
-
-.button {
-  height: 38px;
-  background: #F5F4FA;
+  font-family: inherit;
   cursor: pointer;
-}
-
-.all {
-  width: 73px;
-}
-
-.web {
-  width: 125px;
-}
-
-.app {
-  width: 112px;
-}
-
-.des {
-  width: 103px;
-}
-
-.mar {
-  width: 130px;
 }
 
 .button:hover,
 .button:focus {
   background: var(--hoverfocus-text-color);
+  color: #FFFFFF;
+}
+
+.link-potrfolio {
+  color: #212121;
+  text-decoration: none;
 }
 
 .subtitle {
@@ -249,6 +242,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-decoration: none;
 }
 
 .text.portfolio {
